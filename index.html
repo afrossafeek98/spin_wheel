@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spin Wheel</title>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <style id="dynamic-keyframes"></style>
+</head>
+
+<body>
+  <div>
+    
+    <div id="wheelOfFortune">
+      <canvas id="wheel" width="400" height="400"></canvas>
+    </div>
+
+    <div class="div-block-127">
+      <div class="div-block-128"><img width="50px" src="assets/images/center_webclip.png" loading="lazy" alt=""
+          class="image-18" />
+      </div>
+    </div>
+    <div class="div-block-129">
+      <div class="div-block-130"><img width="64px" src="assets/images/map_pin.svg" loading="lazy" alt="" class="image-16" /></div>
+    </div>
+
+    <div class="div-block-132" id="now_turn">
+      <a class="button-2 large w-inline-block" onclick="spin()">
+        <div>Now Turn</div>
+      </a>
+    </div>
+    
+  </div>
+
+  <div style="opacity:0" class="div-block-133" id="giftDiv">
+    <div
+      style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+      class="div-block-134" id="giftPopup">
+      <div class="div-block-135">
+        <div class="div-block-136"><img src="assets/images/gift_party_popper.png" loading="lazy" alt="" class="image-20" /></div>
+      </div>
+      <div class="divider _24px"></div>
+      <h1 class="heading-5">Congratulations!</h1>
+      <div class="divider _12px"></div>
+
+      <h3 class="heading-6">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">You get:</font>
+        </font>
+        <span class="text-span-3">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;" id="gift"></font>
+          </font>
+        </span>
+      </h3>
+
+      <div class="divider _42px"></div>
+        <a style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" href="#" class="button-2 large large2 w-inline-block"><div><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Receive a gift via Whatsapp</font></font></div></a>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
